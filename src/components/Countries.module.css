@@ -1,0 +1,24 @@
+.countries {
+    height: 250px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.countries img {
+    width: 370px;
+    height: 250px;
+    padding: 25px;
+    border-radius: 45px;
+}
+
+.countries :hover {
+    opacity: 0.8;
+    transform: scale(1.08);
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
